@@ -4,36 +4,36 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.2.3/milligram.min.css">
   </head>
   <body class="container" style="padding-top: 3%;">
-    <h2><a href="index.html">Andy's Auction House</a></h2>
-    <h4>Still constructing</h4>
+    <h2><a href="index.html">Auction House</a></h2>
+    <h4>Need a DataBase</h4>
 
     <hr />
 
     <div class="row">
       <div class="column">
         <label>Beneficiary</label>
-        <blockquote><p><em id="beneficiary">Loading..</em><br /><br /></p></blockquote>
+        <blockquote><p><em id="beneficiary">(itemSeller)</em><br /><br /></p></blockquote>
       </div>
       <div class="column">
         <label>Raised</label>
-        <blockquote><p><em><span id="raised">Loading..</span><br />ETH</em></p></blockquote>
+        <blockquote><p><em><span id="raised">(amountPerBid)</span><br />ETH</em></p></blockquote>
       </div>
       <div class="column">
         <label>Timeleft</label>
-        <blockquote><p><em id="timeleft">Loading..</em><br />seconds</p></blockquote>
+        <blockquote><p><em id="timeleft">(currentTimeUntilEnd)</em><br />seconds</p></blockquote>
       </div>
       <div class="column">
         <label>Highest Bidder</label>
         <blockquote><p><em><span id="highestBidder"></span><br />
-        <span id="highestBid"></span> ETH</em></p></blockquote>
+        <span id="highestBid"></span>(userWinner)</em></p></blockquote>
       </div>
       <div class="column">
         <label>Your Account<label>
-        <blockquote><p><em id="accountAddress">Loading..</em><br /><br /></p></blockquote>
+        <blockquote><p><em id="accountAddress">(userInfo) ETH</em><br /><br /></p></blockquote>
       </div>
       <div class="column">
         <label>Balance</label>
-        <blockquote><p><em id="accountBalance">Loading..</em><br />ETH</p></blockquote>
+        <blockquote><p><em id="accountBalance">(userBalance)</em><br />ETH</p></blockquote>
       </div>
     </div>
 
@@ -41,7 +41,7 @@
 
     <div class="row">
       <div class="column column-33">
-        <label>From Account</label>
+        <label>Choose Account</label>
         <select id="bidAccount">
         </select>
       </div>
